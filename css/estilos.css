@@ -1,0 +1,118 @@
+/*
+SELECTORES DE CSS: etiquetas html, id, class
+*/
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+h1{
+    color: rgb(97, 30, 44);/*color de letras*/
+    font-size: 60px;/*tamaño de letras 1 em= 16px*/
+}
+p{
+    color: darkgoldenrod;
+    font-size: small;
+}
+h2{
+    background-color: darkolivegreen;/*color de fondo*/
+    color: darkorange;
+}
+ol{
+    background-color: darksalmon;
+}
+body{
+    background-color: beige;
+    font-family: 'Sansita Swashed', cursive;/*tipo de letras*/
+}
+img{
+    /*width: 10%; % px*/
+    /*height: 20px;*/
+}
+#imagen1{
+    width: 10%;/*tamaño de ancho, puede ser px*/
+}
+#imagen2{
+    width: 40%;
+    border: 2px dashed red;/*border*/
+    margin-left: 40%;/*margen izquierdo*/
+    /*solid dotted groove*/
+}
+#parrafoLoco{
+    width: 30%;
+    background-color: seagreen;
+    color: black;
+    margin: auto;/*centrar, válido para algunas etiquetas*/
+    /* margin-top: 0px;margen arriba
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin:0px; */
+    margin: 10px 5px;/*arriba abajo y hacia los lados
+    margin: 5px 6px 7px 8px; */
+    padding: 20px;/*margen interno hacia todos los lados*/
+    
+}
+.imagen3{
+    width: 250px;
+}
+.imagen4{
+    width: 800px;
+}
+.imagen5{
+    width: 50px;
+    height: 50px;/*altura*/
+}
+.nav{
+    color: tomato;
+    text-decoration: none;/*sacar el subrayado, underline agregarlo*/
+    background-color: lightpink;
+    padding: 10px 15px;
+    margin-left: 10px;
+}
+.nav:hover{
+    color: lightpink;
+    background-color: tomato;
+}
+#caja1{
+    width: 30%;/*ancho*/
+    height: 250px;/*alto*/
+    background-color: lightseagreen;/*color de fondo*/
+    float: left;/*flotar un elemento a la izquierda*/
+    margin-left: 2%;
+}
+#caja2{
+    width: 30%;
+    height: 250px;
+    background-color: rgb(178, 32, 56);
+    float: left;
+    margin-left: 3%;
+}
+#caja3{
+    width: 30%;
+    height: 250px;
+    background-color: rgb(87, 135, 175);
+    float: left;
+    margin-left: 3%;
+}
+#mensaje{
+    width: 80%;
+    height: 100px;
+}
+form{
+    background-color: aquamarine;
+    width: 50%;
+    padding: 30px;
+}
+#enviar{
+    width: 20%;
+    height: 40px;
+    background-color: brown;
+    color: white;
+}
+/*media queries*/
+@media(max-width:400px){
+    #caja1,#caja2,#caja3{
+        width: 100%;
+    }
+    .nav{
+        display: block;
+    }
+}
+

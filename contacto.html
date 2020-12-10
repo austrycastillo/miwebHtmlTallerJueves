@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <h1>Contacto</h1>
+    <a href="index.html" title="inicio" class="nav">Inicio</a>
+    <a href="productos.html" class="nav">Productos</a>
+    <a href="nosotros.html" class="nav">Nosotros</a>
+    <a href="contacto.html" class="nav">Contacto</a>
+    <a href="https://www.google.com/" target="_blank" class="nav">Google</a>
+    <p>
+        Formulario de contacto:
+    </p>
+    <p>
+        <!--get y post
+        input: number, radio, checkbox, color
+        -->
+    <form action="enviar.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        <br>
+        <label for="mensaje">Mensaje:</label>
+        <br>
+        <textarea name="mensaje" id="mensaje" required></textarea>
+        <br>
+        <input type="submit" value="Enviar contacto" id="enviar">
+        <!--<button>Enviar</button>-->
+    </form>
+    </p>
+</body>
+
+</html>
